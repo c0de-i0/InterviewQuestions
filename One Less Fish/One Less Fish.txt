@@ -1,0 +1,32 @@
+﻿One Less Fish
+
+
+Problem:
+You are given N identical fish bowls, containing N-1 fishes, and one fish in each bowl. The fishes in the bowls have different weights. Your task is to determine the weights of each fish.
+
+
+Input:
+* N (1 <= N <= 100): An integer representing the number of fish bowls and the total number of fishes.
+* fish_weights (a list of N integers): The weights of the fishes in the bowls. Each weight (1 <= weight <= 100) is distinct.
+Output:
+* A list of N-1 integers, representing the weights of each fish.
+
+
+Sample Input:
+4
+14 15 10 17
+
+
+Sample Output:
+4 5 7
+
+
+
+
+Sample Input:
+5
+13 10 12 5 9
+
+
+Sample Output:
+8 5 7 4
